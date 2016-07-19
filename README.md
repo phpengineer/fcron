@@ -12,6 +12,8 @@ make install
 #编辑任务
 fcrontab -e
 
+@nolog(true),runas(fcron) 20s  command
+
 #任务格式写法
 http://fcron.free.fr/doc/en/fcrontab.5.html  
 
